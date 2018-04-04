@@ -1,0 +1,19 @@
+{
+  "name": "svg-to-font",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.1.2",
+    "i": "^0.3.6",
+    "npm": "^5.8.0",
+    "svg2ttf": "^4.1.0",
+    "svgicons2svgfont": "^9.0.2"
+  }
+}

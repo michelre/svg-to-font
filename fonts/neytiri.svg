@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <font id="neytiri" horiz-adv-x="32">
+    <font-face font-family="neytiri"
+      units-per-em="32" ascent="32"
+      descent="0" />
+    <missing-glyph horiz-adv-x="0" />
+    <glyph glyph-name="home"
+      unicode="&#xE001;"
+      horiz-adv-x="32" d="M32 13.549L16 25.969L0 13.549V18.613L16 31.033L32 18.613zM28 14V2H20V10H12V2H4V14L16 23z" />
+  </font>
+</defs>
+</svg>
