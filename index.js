@@ -7,15 +7,14 @@ const css = require('node-css');
 const randomUnicode = require('random-unicodes');
 
 const fontName = 'neytiri';
-const svgFontFile = 'fonts/neytiri.svg';
-const ttfFontFile = 'fonts/neytiri.ttf';
+const svgFontFile = `fonts/${fontName}.svg`;
+const ttfFontFile = `fonts/${fontName}.ttf`;
 const iconsPath = 'icons';
 
 const writeFile = promisify(fs.writeFile);
 const readFile = promisify(fs.readFile);
 const fontStream = new SVGIcons2SVGFontStream({fontName});
 
-// Setting the font destination
 fontStream.pipe(fs.createWriteStream(svgFontFile))
   .on('finish', function () {
     generateFontFile(svgFontFile, ttfFontFile).then(d => console.log('OK'));
