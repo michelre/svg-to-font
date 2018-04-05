@@ -1,19 +1,152 @@
 @font-face {
-    font-family: 'neytiri';
-    src: url('fonts/neytiri.ttf') format('truetype'),
-         url('fonts/neytiri.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'neytiri';
+  src: url('fonts/neytiri.ttf') format('truetype'), url('fonts/neytiri.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="neytiri-"], [class*="neytiri-"] {
+  font-family: neytiri !important;
+}
+.neytiri-blog:before {
+  content: '\6026';
 }
 
-[class^="neytiri-"], [class*=" neytiri-"] {
-    font-family: 'neytiri' !important;
+.neytiri-book:before {
+  content: '\98E8';
+}
+
+.neytiri-books:before {
+  content: '\CE40';
+}
+
+.neytiri-bullhorn:before {
+  content: '\7302';
+}
+
+.neytiri-camera:before {
+  content: '\4CEF';
+}
+
+.neytiri-clubs:before {
+  content: '\EA04';
+}
+
+.neytiri-connection:before {
+  content: '\0F5D';
+}
+
+.neytiri-diamonds:before {
+  content: '\2DEB';
+}
+
+.neytiri-dice:before {
+  content: '\696D';
+}
+
+.neytiri-droplet:before {
+  content: '\7003';
+}
+
+.neytiri-eyedropper:before {
+  content: '\8208';
+}
+
+.neytiri-feed:before {
+  content: '\8B08';
+}
+
+.neytiri-file-text:before {
+  content: '\A95B';
+}
+
+.neytiri-film:before {
+  content: '\45C0';
+}
+
+.neytiri-headphones:before {
+  content: '\72C2';
 }
 
 .neytiri-home:before {
-    content: "\E001";
+  content: '\A882';
 }
 
-.red {
-    color: red;
+.neytiri-home2:before {
+  content: '\029F';
+}
+
+.neytiri-home3:before {
+  content: '\B5F0';
+}
+
+.neytiri-image:before {
+  content: '\F526';
+}
+
+.neytiri-images:before {
+  content: '\140B';
+}
+
+.neytiri-library:before {
+  content: '\DDA9';
+}
+
+.neytiri-mic:before {
+  content: '\044F';
+}
+
+.neytiri-music:before {
+  content: '\B806';
+}
+
+.neytiri-newspaper:before {
+  content: '\0D4F';
+}
+
+.neytiri-office:before {
+  content: '\4FD0';
+}
+
+.neytiri-pacman:before {
+  content: '\0F19';
+}
+
+.neytiri-paint-format:before {
+  content: '\A8F8';
+}
+
+.neytiri-pen:before {
+  content: '\9B19';
+}
+
+.neytiri-pencil:before {
+  content: '\0CFC';
+}
+
+.neytiri-pencil2:before {
+  content: '\D54E';
+}
+
+.neytiri-play:before {
+  content: '\8AF2';
+}
+
+.neytiri-podcast:before {
+  content: '\19A2';
+}
+
+.neytiri-profile:before {
+  content: '\96D4';
+}
+
+.neytiri-quill:before {
+  content: '\BBF8';
+}
+
+.neytiri-spades:before {
+  content: '\5569';
+}
+
+.neytiri-video-camera:before {
+  content: '\F5B0';
 }
